@@ -1,0 +1,35 @@
+body {
+    background-color: hotpink;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+#calcul{
+    height: 25%;
+    background-color: black;
+    
+    color: white;
+}
+table {
+    position: relative;
+    top: 100px;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    border-width:5px ;
+    border-spacing: 0;
+    background-color: rgba(235, 243, 243, 0.8);
+}
+td {
+    text-align:center;
+    width: 50px;
+}
+tr {
+    border: 1px solid white;
+}
+
+td:hover {
+    background-color: aqua;
+    cursor: grab;
+}
